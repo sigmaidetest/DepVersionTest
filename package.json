@@ -1,0 +1,8 @@
+{
+  "name": "DepVersionTest",
+  "version": "1.0.0",
+  "dependencies": {
+    "slappforge-sdk-xml": "0.0.4"
+  },
+  "devDependencies": {}
+}

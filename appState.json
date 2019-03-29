@@ -1,0 +1,82 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "d3c82c8e-8a73-4bfc-9ab3-a08dfe74ab57": {
+        "id": "d3c82c8e-8a73-4bfc-9ab3-a08dfe74ab57",
+        "parent": null,
+        "name": "DepVersionTest",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "0230b883-9b58-41e6-b1ac-37b0e5ce8972"
+        ],
+        "isRemovable": false,
+        "filePath": "DepVersionTest"
+      },
+      "0230b883-9b58-41e6-b1ac-37b0e5ce8972": {
+        "id": "0230b883-9b58-41e6-b1ac-37b0e5ce8972",
+        "parent": "d3c82c8e-8a73-4bfc-9ab3-a08dfe74ab57",
+        "name": "lambda.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "DepVersionTest/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "triggers": [],
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        }
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "d3c82c8e-8a73-4bfc-9ab3-a08dfe74ab57",
+    "openFiles": [
+      "0230b883-9b58-41e6-b1ac-37b0e5ce8972"
+    ],
+    "currentFileId": "0230b883-9b58-41e6-b1ac-37b0e5ce8972",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "slappforge-sdk-xml": {
+          "name": "slappforge-sdk-xml",
+          "version": "0.0.4"
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "DepVersionTest",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1553833918454
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "DepVersionTest",
+      "url": "https://github.com/sigmaidetest/DepVersionTest"
+    }
+  }
+}
