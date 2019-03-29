@@ -55,12 +55,7 @@
       }
     ],
     "packageJSON": {
-      "dependencies": {
-        "slappforge-sdk-xml": {
-          "name": "slappforge-sdk-xml",
-          "version": "0.0.4"
-        }
-      }
+      "dependencies": {}
     }
   },
   "PROJECT_META": {
@@ -70,7 +65,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1553833918454
+    "lastSave": 1553834035944
   },
   "VCS_STATE": {
     "provider": "GitHub",
